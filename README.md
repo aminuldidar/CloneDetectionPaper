@@ -61,11 +61,12 @@ Extends the core metric schema to include independent categorical evaluations by
 
 Inherits all attributes from clone_pair_similarity.csv alongside the following explicit validation additions:
 
-Column Name,Type,Description
-label_1,Integer,"Classification choice from Annotator 1 (1 = True Clone, 0 = False Positive)."
-label_2,Integer,"Classification choice from Annotator 2 (1 = True Clone, 0 = False Positive)."
-bucket,String,"Categorized structural grouping boundary assigned by score tiers (e.g., Type-1, Type-2)."
-agree,Boolean,Operational flag indicating structural convergence between label_1 and label_2.
+| Column Name | Type | Description |
+|------------|------|-------------|
+| `label_1` | Integer | Classification choice from Annotator 1 (`1` = True Clone, `0` = False Positive). |
+| `label_2` | Integer | Classification choice from Annotator 2 (`1` = True Clone, `0` = False Positive). |
+| `bucket` | String | Categorized structural grouping boundary assigned by score tiers (e.g., `Type-1`, `Type-2`). |
+| `agree` | Boolean | Operational flag indicating structural convergence between `label_1` and `label_2`. |
 
 
 
