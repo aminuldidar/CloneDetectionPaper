@@ -18,15 +18,15 @@ This repository contains the replication data, evaluation corpora, and human ora
 #### 1. Global Provenance Data (downsized_clone_provenance_dataset.csv)
 Contains the foundational structural links across the software ecosystem, optimized for rapid mapping between origin code bases and cloned targets.
 
-Column Name,Type,Description
-
-- hash,String,Cryptographic invariant match fingerprint generated from normalized AST subtrees.
-- source_method_name,String,Original signature identifier of the root method declaration.
-- sink_method_name,String,Secondary signature identifier of the cloned method target copy.
-- source_repository_url,String,Target public repository web route hosting the original source logic.
-- sink_repository_url,String,Destination public repository web route hosting the duplicated logic.
-- source_file_location,String,Core file resolution path tracking the origin file name and entry line number.
-- sink_file_location,String,Destination file resolution path tracking the target file name and entry line number.
+| Column Name | Type | Description |
+|------------|------|-------------|
+| `hash` | String | Cryptographic invariant match fingerprint generated from normalized AST subtrees. |
+| `source_method_name` | String | Original signature identifier of the root method declaration. |
+| `sink_method_name` | String | Secondary signature identifier of the cloned method target copy. |
+| `source_repository_url` | String | Target public repository web route hosting the original source logic. |
+| `sink_repository_url` | String | Destination public repository web route hosting the duplicated logic. |
+| `source_file_location` | String | Core file resolution path tracking the origin file name and entry line number. |
+| `sink_file_location` | String | Destination file resolution path tracking the target file name and entry line number. |
 
 
 #### 2. AST Similarity Metrics Data (clone_pair_similarity.csv)
