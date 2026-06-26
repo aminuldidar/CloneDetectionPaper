@@ -15,7 +15,7 @@ This repository contains the replication data, evaluation corpora, and human ora
 
 ### Dataset Schemas & Data Dictionaries
 
-1. Global Provenance Data (downsized_clone_provenance_dataset.csv)
+#### 1. Global Provenance Data (downsized_clone_provenance_dataset.csv)
 Contains the foundational structural links across the software ecosystem, optimized for rapid mapping between origin code bases and cloned targets.
 
 Column Name,Type,Description
@@ -28,7 +28,7 @@ source_file_location,String,Core file resolution path tracking the origin file n
 sink_file_location,String,Destination file resolution path tracking the target file name and entry line number.
 
 
-2. AST Similarity Metrics Data (clone_pair_similarity.csv)
+#### 2. AST Similarity Metrics Data (clone_pair_similarity.csv)
 Maintains the dense similarity scores and structural dimensions for evaluation. It includes multi-line text blocks representing the exact code state harvested from the repository histories.
 
 Column Name,Type,Description
