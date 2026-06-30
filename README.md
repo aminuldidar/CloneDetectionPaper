@@ -8,9 +8,9 @@ This repository contains the replication data, evaluation corpora, and human ora
 
 ```text
 ├── README.md                               <- This documentation file
-├── downsized_clone_provenance_dataset.csv   <- Curated global ecosystem clone provenance mapping
-├── clone_pair_similarity.csv               <- Deep AST analysis features and raw code metrics
-└── human_annotation_oracle.csv             <- Dual-annotated human baseline evaluation corpus
+├── downsized_clone_provenance_dataset.csv   <- Curated global ecosystem clone provenance mapping (100,000 records)
+├── clone_pair_similarity.csv               <- Deep AST analysis features and raw code metrics (25,753 records)
+└── human_annotation_oracle.csv             <- Dual-annotated human baseline evaluation corpus (1,000 records)
 ```
 
 ### Dataset Schemas & Data Dictionaries
