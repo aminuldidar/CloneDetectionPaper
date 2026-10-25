@@ -75,7 +75,7 @@ Inherits all attributes from clone_pair_similarity.csv alongside the following e
 
 ## Illustrative Usage: The Extraction and Query Pipeline
 
-The datasets in this package are the output of a method-level mining and indexing pipeline. The pipeline's own source code is not included in this anonymized package, but its operational model — CLI usage, credential policy, hashing, and revisit behavior — is documented in **[`MINER_SETUP.md`](./MINER_SETUP.md)**, shared across this project's companion replication packages so the description stays identical everywhere it appears. The structural signature it produces is carried here as the `hash` / `common_hash` columns.
+The datasets in this package are the output of a method-level mining and indexing pipeline. The pipeline's own source code is not included in this anonymized package, but its operational model (CLI usage, credential policy, hashing, and revisit behavior) is documented in **[`MINER_SETUP.md`](./MINER_SETUP.md)**, shared across this project's companion replication packages so the description stays identical everywhere it appears. The structural signature it produces is carried here as the `hash` / `common_hash` columns.
 
 ---
 
@@ -92,7 +92,7 @@ pip install pandas numpy
 
 ## License
 
-* **Code** (`verify_package.ipynb`): released under the **MIT License** -- see [`LICENSE`](./LICENSE).
+* **Code** (`verify_package.ipynb`): released under the **MIT License** (see [`LICENSE`](./LICENSE)).
 * **Data** (`downsized_clone_provenance_dataset.csv`, `clone_pair_similarity.csv`, `human_validation_oracle.csv`): released under **CC-BY 4.0** (https://creativecommons.org/licenses/by/4.0/).
 
 Repository URLs contained within the datasets refer to their original upstream open-source projects and remain subject to their respective licenses; this package's license applies to our own derived datasets and code, not to the third-party code those URLs point to.

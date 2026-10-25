@@ -24,5 +24,5 @@ SOFTWARE.
 
 This license applies to the code in this repository (verify_package.ipynb).
 The datasets (downsized_clone_provenance_dataset.csv, clone_pair_similarity.csv,
-human_validation_oracle.csv) are released separately under CC-BY 4.0 -- see the
+human_validation_oracle.csv) are released separately under CC-BY 4.0; see the
 "License" section of README.md.
